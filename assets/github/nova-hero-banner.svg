@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 380" width="1280" height="380" role="img" aria-labelledby="nova-title nova-desc">
+  <title id="nova-title">NOVA Finance by NGOPREK DIGITAL</title>
+  <desc id="nova-desc">Personal finance mobile app concept and design system. Make money make sense. Designed by NGOPREK DIGITAL.</desc>
+  <defs>
+    <clipPath id="cardClip">
+      <rect x="0" y="0" width="1280" height="380" rx="24"/>
+    </clipPath>
+    <linearGradient id="beamGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B7F34D" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#16A34A" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="areaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22C55E" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#123C2B" stop-opacity="0.02"/>
+    </linearGradient>
+    <style>
+      .kicker { font: 700 12px -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; letter-spacing: 2px; fill: #B7F34D; }
+      .wordmark { font: 700 64px "Avenir Next", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; letter-spacing: -1.5px; fill: #FFFFFF; }
+      .tagline { font: 600 24px "Avenir Next", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; fill: #B7F34D; }
+      .bodycopy { font: 400 15px -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; fill: #D8E8DF; }
+      .meta { font: 600 12px "SF Mono", Menlo, Monaco, Consolas, monospace; fill: #9CC5B0; }
+      .val { font: 700 28px "Avenir Next", -apple-system, BlinkMacSystemFont, sans-serif; fill: #FFFFFF; }
+      .lbl { font: 500 11px -apple-system, BlinkMacSystemFont, sans-serif; fill: #9CC5B0; }
+      .credit { font: 600 12px -apple-system, BlinkMacSystemFont, sans-serif; letter-spacing: 1px; fill: #D8E8DF; }
+
+      .curve {
+        stroke-dasharray: 420;
+        stroke-dashoffset: 420;
+        animation: drawCurve 2.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+      }
+      .beam {
+        opacity: 0.92;
+        animation: subtlePulse 6s ease-in-out infinite;
+      }
+      .node-dot {
+        opacity: 0;
+        animation: fadeInNode 0.5s ease-out 1.8s forwards;
+      }
+      @keyframes drawCurve {
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes subtlePulse {
+        0%, 100% { opacity: 0.85; }
+        50% { opacity: 1; }
+      }
+      @keyframes fadeInNode {
+        to { opacity: 1; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .curve { stroke-dashoffset: 0; animation: none; }
+        .beam { opacity: 0.92; animation: none; }
+        .node-dot { opacity: 1; animation: none; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <rect x="0" y="0" width="1280" height="380" fill="#123C2B"/>
+    <path d="M 740 380 L 960 0 L 1280 0 L 1280 380 Z" fill="#164834"/>
+    <path class="beam" d="M 944 380 L 1110 0 L 1124 0 L 958 380 Z" fill="url(#beamGrad)"/>
+
+    <!-- NOVA 3-Part Architectural Brand Mark -->
+    <rect x="56" y="48" width="54" height="54" rx="14" fill="#0B281C" stroke="#256248" stroke-width="1.2"/>
+    <path d="M 68 89 L 68 63 C 68 61.9 68.9 61 70 61 L 77 61 L 77 89 Z" fill="#FFFFFF"/>
+    <path d="M 72 61 L 80 61 L 94 89 L 86 89 Z" fill="#B7F34D"/>
+    <path d="M 89 61 L 96 61 C 97.1 61 98 61.9 98 63 L 98 89 L 89 89 Z" fill="#16A34A"/>
+
+    <text x="126" y="80" class="kicker">PRODUCT DESIGN CONCEPT  /  FIGCRAFT + ASTRYX + ANTI-SLOP</text>
+
+    <text x="56" y="170" class="wordmark">NOVA Finance</text>
+    <text x="56" y="210" class="tagline">Make money make sense.</text>
+    <text x="56" y="248" class="bodycopy">Personal finance mobile concept with 15 light screens, 5 deep-forest dark screens,</text>
+    <text x="56" y="270" class="bodycopy">13 native FigCraft components, 21 Light/Dark variables, and 47 interactive flows.</text>
+
+    <line x1="56" y1="306" x2="680" y2="306" stroke="#245C44" stroke-width="1"/>
+    <text x="56" y="336" class="credit">DESIGNED BY NGOPREK DIGITAL</text>
+    <text x="308" y="336" class="meta">CONNECT. COLLABORATE. CREATE.  /  NGOPREKDIGITAL.SITE</text>
+
+    <!-- Right Editorial Financial Telemetry Preview Card -->
+    <rect x="786" y="48" width="438" height="284" rx="20" fill="#0C241A" stroke="#235A42" stroke-width="1.2"/>
+    <text x="814" y="84" class="meta">SAMPLE PORTFOLIO SNAPSHOT</text>
+    <text x="814" y="126" class="val">$24,860.40</text>
+    <rect x="1086" y="102" width="112" height="26" rx="8" fill="#163826" stroke="#2A6A49" stroke-width="1"/>
+    <text x="1142" y="119" text-anchor="middle" style="font:700 11px -apple-system,sans-serif;fill:#B7F34D;">+$2,631.50 Nov</text>
+
+    <!-- Subtle Animated Cash Flow Area & Spline -->
+    <path d="M 814 236 C 874 222 924 196 984 204 C 1044 212 1104 160 1196 168 L 1196 254 L 814 254 Z" fill="url(#areaGrad)"/>
+    <path class="curve" d="M 814 236 C 874 222 924 196 984 204 C 1044 212 1104 160 1196 168" fill="none" stroke="#4ADE80" stroke-width="3" stroke-linecap="round"/>
+    <circle class="node-dot" cx="1196" cy="168" r="5.5" fill="#B7F34D" stroke="#0C241A" stroke-width="2.5"/>
+
+    <line x1="814" y1="274" x2="1196" y2="274" stroke="#1E4B37" stroke-width="1"/>
+    <text x="814" y="302" class="lbl">20 SCREENS (15L / 5D)</text>
+    <text x="978" y="302" class="lbl">13 COMPONENTS</text>
+    <text x="1108" y="302" class="lbl">WCAG 2.2 AA</text>
+  </g>
+</svg>

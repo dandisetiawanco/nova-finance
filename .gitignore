@@ -1,0 +1,43 @@
+# OS and Editor Artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Temporary, Backup, and Cache Files
+*.tmp
+*.temp
+*.bak
+*.log
+*.cache
+.cache/
+__pycache__/
+*.pyc
+node_modules/
+
+# Environment Variables, Secrets, and Local Credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.keystore
+credentials.json
+secrets.json
+
+# Agent, MCP, and Local Tooling Configuration
+.gemini/
+.agents/
+mcp_config.json
+settings.json
+*.mcp.json
+
+# Unrelated Local Projects and Scratch Output
+Bookly.figcraft
+bookly-previews/
+scratch/
+tmp/

@@ -1,0 +1,34 @@
+Copyright (c) 2026 Dandi Setiawan / NGOPREK DIGITAL. All Rights Reserved.
+
+PROPRIETARY DESIGN PORTFOLIO NOTICE
+
+The original NOVA Finance brand identity, visual design, FigCraft source file
+(design/NOVA-Finance.figcraft), exported screens, custom vector illustrations,
+iconography, presentation boards, and written documentation in this repository
+are the intellectual property of Dandi Setiawan and NGOPREK DIGITAL
+(https://www.ngoprekdigital.site/).
+
+PERMITTED USE
+You may view, download, and inspect the files in this repository for personal
+study, portfolio review, and educational reference in FigCraft Desktop.
+
+RESTRICTED USE
+Without prior written permission from the copyright holder, you may not:
+- Redistribute or resell the NOVA Finance design files, exports, or brand assets
+  as a template, UI kit, or commercial product.
+- Use the NOVA Finance brand mark, NGOPREK DIGITAL name, or visual assets to
+  imply endorsement, partnership, or production banking services.
+
+THIRD-PARTY NOTICES AND NON-REDISTRIBUTED ASSETS
+- FigCraft and the .figcraft file format belong to their respective owners.
+- Astryx Design System principles referenced in docs/DESIGN_SYSTEM.md and
+  docs/DESIGN_WORKFLOW.md belong to Meta Platforms, Inc.; no Astryx source code
+  or npm packages are redistributed in this repository.
+- Anti-Slop quality checklists referenced in docs/DESIGN_WORKFLOW.md belong to
+  their respective authors; no Anti-Slop skill files are redistributed here.
+- Typography: Avenir Next and Helvetica Neue are referenced by family name only
+  inside design/NOVA-Finance.figcraft and are NOT redistributed in this
+  repository (provided by macOS system fonts). JetBrains Mono is licensed under
+  the SIL Open Font License 1.1 and is also NOT redistributed in this
+  repository. Exported SVG files outline text paths rather than embedding font
+  binaries.
